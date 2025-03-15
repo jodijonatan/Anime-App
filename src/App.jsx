@@ -41,7 +41,7 @@ const animesData = [
 ];
 
 export default function App() {
-  const [animes, setAnimes] = useState(animesData);
+  const [animes] = useState(animesData);
   const [selectedAnime, setSelectedAnime] = useState(animes[0]);
 
   function handleSelectedAnime(id) {
