@@ -1,4 +1,4 @@
-import { Children, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 const animesData = [
@@ -82,7 +82,7 @@ function Logo() {
   return (
     <div className="logo">
       <span role="img">🍥</span>
-      <h1>WeeBoo</h1>
+      <h1>JooNime</h1>
       <span role="img">🍥</span>
     </div>
   );
